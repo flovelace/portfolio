@@ -5,7 +5,7 @@
 }
 
 body {
-    color: #292929;
+    color: #2c719b;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -13,7 +13,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-image: linear-gradient(180deg, #1c1c1c, #666666);
+    background-image: linear-gradient(85deg, #000, #2c719c);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; 
@@ -29,15 +29,10 @@ header h1 {
     font-weight: 300;
     font-size: 40px;
     text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
-	color: #4fbdaa;
+	color: #40a4e2;
 	opacity: 0.4;
     margin: 0px;
     display: inline;    
-}
-
-header a {
-    text-decoration: none;
-    color: #4fbdaa;
 }
 
 header nav {
@@ -56,9 +51,45 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: 200;
     text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
-	color: #4fbdaa;
+	color: #f7f2f2;
+    text-decoration: none;
 	opacity: 0.4;
     font-size: 28px;
 }
 
 /*header nav styles end*/
+
+/*hero/jumbotron*/
+
+.hero {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../images/hero-img.jpg");
+}
+
+.hero h2 {
+    font-weight: 900;
+    font-size: 75px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.subh2 {
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+}
+
+.hero-p {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+/*hero/jumbotron end*/
+
+/*About section begins*/
+
