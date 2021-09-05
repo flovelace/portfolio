@@ -151,6 +151,11 @@ header nav ul li a {
     width: 100%;
 }
 
+.project-image0:hover img {
+    opacity: 0.8;
+}
+
+
 .span0 {
     margin-top: auto;
     width: 20%;
@@ -196,6 +201,10 @@ header nav ul li a {
 .project-image img {
     max-width: 100%;
 
+}
+
+.project-image:hover img {
+    opacity: 0.8;
 }
 
 /*footer*/
